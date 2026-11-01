@@ -1,0 +1,197 @@
+number of parameters: 13.77M
+float multiply(float a, float b){0, int32_t *p, int32_t *p, int32_t *p, int32_t *p
+---------------
+
+--------
+number of parameters: 13.77M
+int x = 1;
+  int y = 2;
+  int z = 4;
+
+  //sum up x and y into sum variable
+  int sum = x + y;
+
+  //sum up sum and z into sum variable
+  int sum =  //  //  //  //  //  //  //  //  //  //  //  // 
+---------------
+
+--------
+number of parameters: 13.77M
+int arr[] = {2, 3, 4, 5, 6};
+  int n = sizeof(arr)/sizeof(arr[0]);
+
+  //add up array elements
+  sum = 0;
+  for(int i = 0; i < n; i++){
+    sum = 0; i < 0; i < i < i++) {
+    if (i = 0) {
+   
+---------------
+
+--------
+number of parameters: 13.77M
+int isEven(int num){
+
+
+    int32_t n;
+    int32_t n;
+    int32_t n;
+    int32_t n;
+
+---------------
+
+--------
+number of parameters: 13.77M
+char ch = '10';
+
+  //convert ch to integer using atoi()
+  int val = atoi(uint64_t*, int32_t*, int32_t*, int32_t*, int32_t*,
+---------------
+
+--------
+number of parameters: 13.77M
+int a = 1, b = 10;
+  int temp;
+
+  //swap a and b using temp variable
+  temp = a; //  //  //  //  //  //  //  //  //  //  //  //  //
+---------------
+
+--------
+number of parameters: 13.77M
+int subtract(int a, int b){
+    //subtract b from a and return result
+    return 0;
+}
+
+static void set_struct bpf_struct bpf_struct bpf_struct b
+---------------
+
+--------
+number of parameters: 13.77M
+, 0, 0, 0, 0, 0, 0, 0, 0,
+---------------
+
+--------
+number of parameters: 13.77M
+int num = 20;
+
+  //print hexadecimal number using format specifier %X
+  printf("bcap", 0x0x0x0, 0x0, 0x0x0,
+---------------
+
+--------
+number of parameters: 13.77M
+//old file name
+  char* oldName = "text.txt";
+
+  //new file name
+  char* newName = "newtext.txt";
+
+  //rename file
+  value = rename(oldName, "type", "type", "type", "type", "type", "type", "type", "type", "
+---------------
+
+--------
+number of parameters: 13.77M
+int value = 16;
+
+  //take the squareroot of value of the
+  // The number of the number of the
+  // The number of the number of the
+  //
+---------------
+
+--------
+number of parameters: 13.77M
+FILE *fptr;
+
+  //open text.txt in read only
+  fptr = fopen("pfpfpfpfpfpfpfpfpfpfpfpfp
+---------------
+
+--------
+number of parameters: 13.77M
+// File pointer
+  FILE* fptr;
+
+  // open "file.txt" in write only mode using "w"
+  fptr = fopen("file.txt", "w");
+
+  //check if file open was succesful
+  if(fptr, "fwr"
+
+
+  // namespace vfn"
+  // namespace vfn"
+  // namespace v
+---------------
+
+--------
+number of parameters: 13.77M
+char str[] = "string";
+
+  //print length of string strings.
+  // The value of the value of the value of the
+  // The value of the value of the value
+---------------
+
+--------
+number of parameters: 13.77M
+int findMin(int arr[], int n){
+  int min = arr[0];
+
+  if(min > 0)
+  //  //  //  //  //  //  //  //  //  //  //
+---------------
+
+--------
+number of parameters: 13.77M
+int findMax(int arr[], int n){];
+  int n = 0;
+  int n = 0;
+  int n = 0;
+  int n
+---------------
+
+--------
+number of parameters: 13.77M
+void concat(char* str1, char* str2, char*, char*, char*, char*, char*, char*, char*, char*,
+---------------
+
+--------
+number of parameters: 13.77M
+float averageValue(int arr[], int n){
+  sum = 0;
+
+  //calculate sum of array elements using for loop
+  for(int i = 0; i < n; i < i < i++) {
+    i = i;
+    i = i;
+    i = i;
+    i =
+---------------
+
+--------
+number of parameters: 13.77M
+//get str and copy to temp then return temp
+  char* temp = strlen;
+  }
+  }
+  return  }
+
+  return  }
+
+  return 0;
+  return 0;
+}
+
+
+---------------
+
+--------
+number of parameters: 13.77M
+int clock = 0;
+    //iterate the clock up every cycle
+   while(1) clock(1, clock, clock, clock, clock, clock, clock, clock, c
+---------------

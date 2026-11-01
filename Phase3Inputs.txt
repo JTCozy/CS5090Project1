@@ -1,0 +1,90 @@
+  float multiply(float a, float b){
+  ~
+  int x = 1;
+  int y = 2;
+  int z = 4;
+
+  //sum up x and y into sum variable
+  int sum = x + y;
+
+  //sum up sum and z into sum variable
+  int sum = ~
+  int arr[] = {2, 3, 4, 5, 6};
+  int n = sizeof(arr)/sizeof(arr[0]);
+
+  //add up array elements
+  sum = 0;
+  for(int i = 0; i < n; i++){
+    sum = ~
+  int isEven(int num){
+~
+ char ch = '10';
+
+  //convert ch to integer using atoi()
+  int val = atoi(~
+
+  int a = 1, b = 10;
+  int temp;
+
+  //swap a and b using temp variable
+  temp = a;
+  ~
+  int subtract(int a, int b){
+    //subtract b from a and return result
+    return~
+  int arr[] = {1, 2, 3, 4, 5};
+
+  //print array element at index 4
+~
+  int num = 20;
+
+  //print hexadecimal number using format specifier %X
+  printf("~
+  //old file name
+  char* oldName = "text.txt";
+
+  //new file name
+  char* newName = "newtext.txt";
+
+  //rename file
+  value = rename(oldName,~
+  int value = 16;
+
+  //take the squareroot of value
+~
+  FILE *fptr;
+
+  //open text.txt in read only
+  fptr = fopen("~
+  // File pointer
+  FILE* fptr;
+
+  // open "file.txt" in write only mode using "w"
+  fptr = fopen("file.txt", "w");
+
+  //check if file open was succesful
+  if(fptr~
+
+  char str[] = "string";
+
+  //print length of string str
+~
+int findMin(int arr[], int n){
+  int min = arr[0];
+
+  if(min > ~
+int findMax(int arr[], int n){
+  ~
+  void concat(char* str1, char* str2
+  ~
+float averageValue(int arr[], int n){
+  sum = 0;
+
+  //calculate sum of array elements using for loop
+  for(int i = 0; i < n; ~
+  //get str and copy to temp then return temp
+  char* temp = str~ 
+    ~
+   int clock = 0;
+    //iterate the clock up every cycle
+   while(1) clock~

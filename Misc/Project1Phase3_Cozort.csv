@@ -1,0 +1,58 @@
+Failure,Input,Relevant Output,Category,Severity,explanation
+Repeated integer Instantiations,"float multiply(float a, float b){","int32_t *p, int32_t *p, int32_t *p, int32_t *p",syntax,Mild,repetative tokenizing most likely due to float references; catchable in unit test
+return 0 instead of subtract value,"int subtract(int a, int b){
+    //subtract b from a and return result
+    return","
+    return 0;
+",wrong-logic,low,most likely due to not referencing the variables often enough to see them; catchable in unit test
+trailing off to repeating comments,"int a = 1, b = 10;
+  int temp;
+
+  //swap a and b using temp variable
+  temp = a;","
+  temp = a; //  //  //  //  //  //  //  //  //  //  //  //  //",context-ignored,High,due to future tokens being weighted heavily on the comment; not easily found in unit test
+rpeated array notation,"int arr[] = {1, 2, 3, 4, 5};
+
+  //print array element at index 4","
+  //print array element at index 4, 0, 0, 0, 0, 0, 0, 0, 0,",context-ignored,Mild,due to a small prompt in combinatio with integer tokens weighing in heavily on next token; not easily catchable
+generating comment instead of code,"int value = 16;
+
+  //take the squareroot of value","
+  //take the squareroot of value of the
+  // The number of the number of the
+  // The number of the number of the
+  //",other(lack of semantic meaning for comments),High,doesnt understand comments possibly due to being weighted hight than actual code in model; catchable in unit test
+generating comments after initial code,"// File pointer
+  FILE* fptr;
+
+  // open ""file.txt"" in write only mode using ""w""
+  fptr = fopen(""file.txt"", ""w"");
+
+  //check if file open was succesful
+  if(fptr,","
+  //check if file open was succesful
+  if(fptr,""fwr""
+  // namespace vfn""
+  // namespace vfn""
+  // namespace v",other(lack of semantic meaning for comments),High,starts generating comments possibly due to the large amount of comments in the input catchable in unit test
+random closer of program and returns," //get str and copy to temp then return temp
+  char* temp = str","//get str and copy to temp then return temp
+  char* temp = strlen;
+  }
+  }
+  return  }
+
+  return  }
+
+  return 0;
+  return 0;
+}",syntax,High,return in the comment was weighed in far more than the rest
+attempts to call itself as a function,"int clock = 0;
+    //iterate the clock up every cycle
+   while(1) clock","
+   while(1) clock(1, clock, clock, clock, clock, clock, clock, clock, c",invented-api,High,probably due to a clock function that it was trained on; difficult to find in normal test
+repeated instiation of input variable,"int findMax(int arr[], int n){","int findMax(int arr[], int n){];
+  int n = 0;
+  int n = 0;
+  int n = 0;
+  int n",syntax,Mild,not enough information to mak a judgment; catchable in normal test
